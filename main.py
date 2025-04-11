@@ -13,7 +13,7 @@ llm = ChatGoogleGenerativeAI(
     temperature=0.7
 )
 
-# ✅ correct method: from_template
+# defining the template
 prompt = ChatPromptTemplate.from_template("List 3 fun facts about {animal} like I am {age}.")
 
 # linking prompt and model
